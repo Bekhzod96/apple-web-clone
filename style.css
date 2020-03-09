@@ -129,9 +129,14 @@ h3 {
 }
 
 section {
+    padding-top: 3px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3px;
+}
+
+section h6{
+    display: none;
 }
 
 .items img {
