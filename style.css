@@ -9,7 +9,7 @@ body {
   background-color: white;
   height: 100%;
   max-height: 1472px;
-  font: 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial,
+  font: 12px / 18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial,
     Verdana, sans-serif;
   color: #333;
 }
@@ -65,8 +65,21 @@ nav ul li a {
   color: white;
 }
 
+.first-line a,
+.copyright a {
+  color: #08c;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 nav ul li a:hover {
   background-color: rgba(68, 63, 63, 0.45);
+}
+
+footer ul li {
+  padding: 0 5px;
 }
 
 nav ul li:nth-child(1) {
@@ -155,16 +168,8 @@ footer {
   line-height: 1.2;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
 footer ul {
   display: flex;
-}
-
-footer ul li {
-  padding: 0 5px;
 }
 
 .first-line {
@@ -172,11 +177,6 @@ footer ul li {
   margin: 10px auto 0;
   display: flex;
   justify-content: space-between;
-}
-
-.first-line a,
-.copyright a {
-  color: #08c;
 }
 
 .copyright {
