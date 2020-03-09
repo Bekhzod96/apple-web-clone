@@ -11,10 +11,8 @@ body {
 	max-height: 1472px;
 	font: 12px / 18px 'Lucida Grande',
 		'Lucida Sans Unicode',
-		Helvetica,
-		Arial,
-		Verdana,
-		sans-serif;
+		Helvetica, Arial,
+		Verdana, sans-serif;
 	color: #333;
 }
 
@@ -118,7 +116,7 @@ nav ul li:nth-child(1) {
 	top: 200px;
 	text-align: center;
 	display: block;
-	margin: 0 auto;
+	margin: auto;
 }
 
 h1,
@@ -160,8 +158,33 @@ section h6 {
 	display: none;
 }
 
-.items img {
-	width: 100%;
+.items {
+	height: 200px;
+	background-color: #333;
+}
+
+.item-1 {
+	background-image:
+		url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg');
+	background-size: cover;
+}
+
+.item-2 {
+	background-image:
+		url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg');
+	background-size: cover;
+}
+
+.item-3 {
+	background-image:
+		url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg');
+	background-size: cover;
+}
+
+.item-4 {
+	background-image:
+		url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg');
+	background-size: cover;
 }
 
 footer {
