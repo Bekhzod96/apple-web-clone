@@ -38,13 +38,13 @@ nav ul {
   justify-content: space-around;
   border-radius: 5px;
   color: white;
-  background: 
-  linear-gradient(
-    #aaa9a9 2%,
-    rgb(102, 101, 101) 50%,
-    rgb(88, 87, 87) 98%,
-    #aaa9a9
-  );
+  background:
+    linear-gradient(
+      #aaa9a9 2%,
+      rgb(102, 101, 101) 50%,
+      rgb(88, 87, 87) 98%,
+      #aaa9a9
+    );
 }
 
 nav ul li {
